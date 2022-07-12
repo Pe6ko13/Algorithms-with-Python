@@ -33,7 +33,6 @@ def put_queens(row, board, rows, cols, left_diagonal, right_diagonal):
         print_board(board)
         return
 
-
     for col in range(8):
         if can_place_queen(row, col, rows, cols, left_diagonal, right_diagonal):
             set_queen(row, col, board, rows, cols, left_diagonal, right_diagonal)
