@@ -13,9 +13,7 @@ def find_all_path(row, col, lab, direction, path):
     if lab[row][col] == 'e':
         print(''.join(path))
     else:
-
         lab[row][col] = 'v'
-
 
         find_all_path(row - 1, col, lab, 'U', path)
         find_all_path(row + 1, col, lab, 'D', path)
