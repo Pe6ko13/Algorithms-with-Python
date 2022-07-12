@@ -1,6 +1,3 @@
-from operator import le
-
-
 def reverse_arr(left_idx, elem):
     if left_idx >= len(elem) // 2:
         return
