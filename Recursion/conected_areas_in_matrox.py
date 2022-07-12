@@ -27,4 +27,4 @@ for row in range(rows):
         result = explore_area(row, col, matrix)
         if result == 0:
             continue
-        print(result)
+        print(f"Size: {result}")
