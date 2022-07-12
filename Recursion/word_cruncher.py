@@ -2,11 +2,14 @@ def find_all_solutions(idx, target, words_by_index, words_count, used_words):
     if idx >= len(target):
         print(' '.join(used_words))
         return
+
     if idx not in words_by_index:
         return
+
     for word in words_by_index[idx]:
         if words_count[word] == 0:
             continue
+
         used_words.append(word)
         words_count[word] -= 1
 
@@ -43,3 +46,6 @@ for word in words:
         pass
 
 find_all_solutions(0, target, words_by_index, words_count, [])
+
+print(words_count)
+print(words_by_index)
