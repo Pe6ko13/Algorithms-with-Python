@@ -47,3 +47,42 @@ if has_cycles:
     print('Invalid topological sorting')
 else:
     print(f"Topological sorting: {'. '.join(sorted_nodes)}")
+
+
+
+# Second solution:
+#
+# from collections import deque
+#
+# nodes = int(input())
+#
+# for _ in range(nodes):
+#     line_parts = input().split('->')
+#     node = line_parts[0].strip()
+#     children = line_parts[1].strip().split(', ') if line_parts[1] else []
+#     graph[node] = children
+#
+#
+# visited = set()
+# cycles = set()
+#
+# def dfs(node, graph, visited, cycles, sorted_nodes):
+#     if node in cycles:
+#         raise Exception
+#     if node in visited:
+#         return
+#     visited.add(node)
+#     cycles.add(node)
+#
+#     for child in graph[node]:
+#         dfs(child, graph, visited, cycles, sorted_nodes)
+#
+#     cycles.remove(node)
+#     sorted_nodes.appendleft(node)
+#
+# sorted_nodes = deque()
+#
+# for node in graph:
+#     dfs(node, graph, visited, cycles, sorted_nodes)
+#
+# print(*sorted_nodes, sep=' ')
