@@ -19,15 +19,16 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="738bc7a2-c61e-4fe7-8ed6-65526f993755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Intro_To_Graphs/Salaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intro_To_Graphs/Break_Cycles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intro_To_Graphs/Salaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intro_To_Graphs/Salaries.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Python.Cycles_in_Graph">
+  <component name="RunManager" selected="Python.Break_Cycles">
+    <configuration name="Break_Cycles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms-with-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intro_To_Graphs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intro_To_Graphs/Break_Cycles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Cycles_in_Graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-with-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,27 +112,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting_Algorithms/Quicksort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="bubble_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms-with-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting_Algorithms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting_Algorithms/bubble_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Break_Cycles" />
         <item itemvalue="Python.Cycles_in_Graph" />
         <item itemvalue="Python.merge_sort" />
         <item itemvalue="Python.Quicksort" />
         <item itemvalue="Python.insertion_sort" />
-        <item itemvalue="Python.bubble_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658923226034</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="problem solved">
+      <created>1658925119206</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1658925119206</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,17 +389,6 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
                 </map>
               </option>
             </State>
@@ -416,10 +413,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="828" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1657544347482" />
-    <state x="1064" y="88" key="CommitChangelistDialog2" timestamp="1658923225392">
+    <state x="1064" y="88" key="CommitChangelistDialog2" timestamp="1658925118655">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1064" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1658923225392" />
+    <state x="1064" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1658925118655" />
     <state x="1053" y="100" width="774" height="839" key="DiffContextDialog" timestamp="1657548836545">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -428,22 +425,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1658752108895" />
-    <state width="936" height="172" key="GridCell.Tab.0.bottom" timestamp="1658922795961">
+    <state width="936" height="172" key="GridCell.Tab.0.bottom" timestamp="1658926402751">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1658922795961" />
-    <state width="936" height="172" key="GridCell.Tab.0.center" timestamp="1658922795961">
+    <state width="936" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1658926402751" />
+    <state width="936" height="172" key="GridCell.Tab.0.center" timestamp="1658926402750">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1658922795961" />
-    <state width="936" height="172" key="GridCell.Tab.0.left" timestamp="1658922795961">
+    <state width="936" height="172" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1658926402750" />
+    <state width="936" height="172" key="GridCell.Tab.0.left" timestamp="1658926402750">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1658922795961" />
-    <state width="936" height="172" key="GridCell.Tab.0.right" timestamp="1658922795961">
+    <state width="936" height="172" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1658926402750" />
+    <state width="936" height="172" key="GridCell.Tab.0.right" timestamp="1658926402751">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1658922795961" />
+    <state width="936" height="172" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1658926402751" />
     <state width="936" height="344" key="GridCell.Tab.1.bottom" timestamp="1658922542168">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -460,10 +457,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="936" height="344" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1658922542168" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1658761720764">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1658925133002">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1658761720764" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1658925133002" />
     <state x="1053" y="100" width="774" height="839" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1657548836546">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

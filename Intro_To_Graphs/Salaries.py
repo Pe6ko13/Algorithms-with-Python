@@ -4,6 +4,7 @@ def dfs(node, graph, salaries):
     if len(graph[node]) == 0:
         salaries[node] = 1
         return 1
+    
     salary = 0
     for _ in graph[node]:
         salary += dfs(node, graph, salaries)
