@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="738bc7a2-c61e-4fe7-8ed6-65526f993755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Intro_To_Graphs/Areas_in_Matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intro_To_Graphs/Cycles_in_Graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Python.merge_sort">
+  <component name="RunManager" selected="Python.Cycles_in_Graph">
+    <configuration name="Cycles_in_Graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms-with-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intro_To_Graphs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intro_To_Graphs/Cycles_in_Graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Quicksort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-with-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,34 +161,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="word_cruncher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms-with-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Recursion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Recursion/word_cruncher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Cycles_in_Graph" />
         <item itemvalue="Python.merge_sort" />
         <item itemvalue="Python.Quicksort" />
         <item itemvalue="Python.insertion_sort" />
         <item itemvalue="Python.bubble_sort" />
-        <item itemvalue="Python.word_cruncher" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658761712844</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="problem solved">
+      <created>1658914818467</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658914818467</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,10 +409,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="828" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1657544347482" />
-    <state x="1064" y="88" key="CommitChangelistDialog2" timestamp="1658761712270">
+    <state x="1064" y="88" key="CommitChangelistDialog2" timestamp="1658914817817">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1064" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1658761712270" />
+    <state x="1064" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1658914817817" />
     <state x="1053" y="100" width="774" height="839" key="DiffContextDialog" timestamp="1657548836545">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -414,38 +421,38 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1658752108895" />
-    <state width="936" height="344" key="GridCell.Tab.0.bottom" timestamp="1657740973325">
+    <state width="936" height="172" key="GridCell.Tab.0.bottom" timestamp="1658922795961">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1657740973325" />
-    <state width="936" height="344" key="GridCell.Tab.0.center" timestamp="1657740973324">
+    <state width="936" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1658922795961" />
+    <state width="936" height="172" key="GridCell.Tab.0.center" timestamp="1658922795961">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1657740973324" />
-    <state width="936" height="344" key="GridCell.Tab.0.left" timestamp="1657740973324">
+    <state width="936" height="172" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1658922795961" />
+    <state width="936" height="172" key="GridCell.Tab.0.left" timestamp="1658922795961">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1657740973324" />
-    <state width="936" height="344" key="GridCell.Tab.0.right" timestamp="1657740973324">
+    <state width="936" height="172" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1658922795961" />
+    <state width="936" height="172" key="GridCell.Tab.0.right" timestamp="1658922795961">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1657740973324" />
-    <state width="936" height="344" key="GridCell.Tab.1.bottom" timestamp="1657740973324">
+    <state width="936" height="172" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1658922795961" />
+    <state width="936" height="344" key="GridCell.Tab.1.bottom" timestamp="1658922542168">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1657740973324" />
-    <state width="936" height="344" key="GridCell.Tab.1.center" timestamp="1657740973324">
+    <state width="936" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1658922542168" />
+    <state width="936" height="344" key="GridCell.Tab.1.center" timestamp="1658922542168">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1657740973324" />
-    <state width="936" height="344" key="GridCell.Tab.1.left" timestamp="1657740973324">
+    <state width="936" height="344" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1658922542168" />
+    <state width="936" height="344" key="GridCell.Tab.1.left" timestamp="1658922542168">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1657740973324" />
-    <state width="936" height="344" key="GridCell.Tab.1.right" timestamp="1657740973324">
+    <state width="936" height="344" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1658922542168" />
+    <state width="936" height="344" key="GridCell.Tab.1.right" timestamp="1658922542168">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1657740973324" />
+    <state width="936" height="344" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1658922542168" />
     <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1658761720764">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
