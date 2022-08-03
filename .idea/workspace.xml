@@ -26,8 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="738bc7a2-c61e-4fe7-8ed6-65526f993755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/Bellman-Ford.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/4.Kruskal’s_Algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/Bellman-Ford.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/3.Bellman-Ford.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659194224701</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="problem solved">
+      <created>1659450120115</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1659450120115</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,10 +448,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="828" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1657544347482" />
-    <state x="1064" y="88" key="CommitChangelistDialog2" timestamp="1659194223371">
+    <state x="1064" y="88" key="CommitChangelistDialog2" timestamp="1659450119448">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1064" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1659194223371" />
+    <state x="1064" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1659450119448" />
     <state x="1053" y="100" width="774" height="839" key="DiffContextDialog" timestamp="1657548836545">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -484,10 +492,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="936" height="344" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1659087048517" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1659194226910">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1659450122608">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1659194226910" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1659450122608" />
     <state x="1053" y="100" width="774" height="839" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1657548836546">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
