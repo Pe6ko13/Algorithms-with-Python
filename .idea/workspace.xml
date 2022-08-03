@@ -26,9 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="738bc7a2-c61e-4fe7-8ed6-65526f993755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/4.Kruskal’s_Algorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/5.Prim's_Algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/Bellman-Ford.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/3.Bellman-Ford.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/4.Kruskal’s_Algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/4.Kruskal’s_Algorithm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Python.1.Shortest_Path_in_Unweighted_Graph">
+  <component name="RunManager" selected="Python.5.Prim's_Algorithm">
     <configuration name="1.Shortest_Path_in_Unweighted_Graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-with-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,6 +70,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/1.Shortest_Path_in_Unweighted_Graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4.Kruskal’s_Algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms-with-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/4.Kruskal’s_Algorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5.Prim's_Algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms-with-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/5.Prim's_Algorithm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,55 +162,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Quicksort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms-with-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting_Algorithms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting_Algorithms/Quicksort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms-with-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting_Algorithms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting_Algorithms/merge_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5.Prim's_Algorithm" />
+        <item itemvalue="Python.4.Kruskal’s_Algorithm" />
         <item itemvalue="Python.1.Shortest_Path_in_Unweighted_Graph" />
         <item itemvalue="Python.Break_Cycles" />
         <item itemvalue="Python.Cycles_in_Graph" />
-        <item itemvalue="Python.merge_sort" />
-        <item itemvalue="Python.Quicksort" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659450120115</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="problem solved">
+      <created>1659532876523</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1659532876523</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,10 +455,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="828" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1657544347482" />
-    <state x="1064" y="88" key="CommitChangelistDialog2" timestamp="1659450119448">
+    <state x="1064" y="88" key="CommitChangelistDialog2" timestamp="1659532875726">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1064" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1659450119448" />
+    <state x="1064" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1659532875726" />
     <state x="1053" y="100" width="774" height="839" key="DiffContextDialog" timestamp="1657548836545">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -460,42 +467,58 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1658752108895" />
-    <state width="936" height="172" key="GridCell.Tab.0.bottom" timestamp="1659087062199">
+    <state width="936" height="264" key="GridCell.Tab.0.bottom" timestamp="1659537673646">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1659087062199" />
-    <state width="936" height="172" key="GridCell.Tab.0.center" timestamp="1659087062199">
+    <state width="936" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1659537673646" />
+    <state width="936" height="264" key="GridCell.Tab.0.center" timestamp="1659537673646">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1659087062199" />
-    <state width="936" height="172" key="GridCell.Tab.0.left" timestamp="1659087062199">
+    <state width="936" height="264" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1659537673646" />
+    <state width="936" height="264" key="GridCell.Tab.0.left" timestamp="1659537673646">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1659087062199" />
-    <state width="936" height="172" key="GridCell.Tab.0.right" timestamp="1659087062199">
+    <state width="936" height="264" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1659537673646" />
+    <state width="936" height="264" key="GridCell.Tab.0.right" timestamp="1659537673646">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1659087062199" />
-    <state width="936" height="344" key="GridCell.Tab.1.bottom" timestamp="1659087048517">
+    <state width="936" height="264" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1659537673646" />
+    <state width="936" height="264" key="GridCell.Tab.1.bottom" timestamp="1659537672913">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1659087048517" />
-    <state width="936" height="344" key="GridCell.Tab.1.center" timestamp="1659087048517">
+    <state width="936" height="264" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1659537672913" />
+    <state width="936" height="264" key="GridCell.Tab.1.center" timestamp="1659537672913">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1659087048517" />
-    <state width="936" height="344" key="GridCell.Tab.1.left" timestamp="1659087048517">
+    <state width="936" height="264" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1659537672913" />
+    <state width="936" height="264" key="GridCell.Tab.1.left" timestamp="1659537672913">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1659087048517" />
-    <state width="936" height="344" key="GridCell.Tab.1.right" timestamp="1659087048517">
+    <state width="936" height="264" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1659537672913" />
+    <state width="936" height="264" key="GridCell.Tab.1.right" timestamp="1659537672913">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="344" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1659087048517" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1659450122608">
+    <state width="936" height="264" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1659537672913" />
+    <state width="936" height="264" key="GridCell.Tab.2.bottom" timestamp="1659533337813">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1659450122608" />
+    <state width="936" height="264" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1659533337813" />
+    <state width="936" height="264" key="GridCell.Tab.2.center" timestamp="1659533337812">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="936" height="264" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1659533337812" />
+    <state width="936" height="264" key="GridCell.Tab.2.left" timestamp="1659533337812">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="936" height="264" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1659533337812" />
+    <state width="936" height="264" key="GridCell.Tab.2.right" timestamp="1659533337812">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="936" height="264" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1659533337812" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1659532880263">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1659532880263" />
     <state x="1053" y="100" width="774" height="839" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1657548836546">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -535,7 +558,44 @@
           <line>3</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/5.Prim's_Algorithm.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/5.Prim's_Algorithm.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/5.Prim's_Algorithm.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/5.Prim's_Algorithm.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/5.Prim's_Algorithm.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/5.Prim's_Algorithm.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

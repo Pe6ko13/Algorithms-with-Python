@@ -14,7 +14,7 @@ def find_root(parent, node):
 edges = int(input())
 graph = []
 
-max_node = float('-int')
+max_node = float('-inf')
 
 for _ in range(edges):
     first, second, weight = [int(x) for x in input().split(', ')]
