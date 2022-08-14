@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="738bc7a2-c61e-4fe7-8ed6-65526f993755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/1.Fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/2.Move_Down_Right.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,28 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Python.1.Fibonacci">
-    <configuration name="04.Undefined" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms-with-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/Minimum_spanning_tree_and_Shortest_path_in_Graph/04.Undefined.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.2.Move_Down_Right">
     <configuration name="05.Cable_Network" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-with-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,6 +90,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic_Programming/1.Fibonacci.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2.Move_Down_Right" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms-with-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic_Programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic_Programming/2.Move_Down_Right.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2.Move_Down_Right" />
         <item itemvalue="Python.1.Fibonacci" />
         <item itemvalue="Python.aaa" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.05.Cable_Network" />
-        <item itemvalue="Python.04.Undefined" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660398267472</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="solve problem">
+      <created>1660401945702</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1660401945702</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +507,8 @@
     <MESSAGE value="third problem solved" />
     <MESSAGE value="problem solved" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="solve problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="194" key="#Inspections" timestamp="1659711156700">
@@ -511,10 +519,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="828" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1657544347482" />
-    <state x="979" y="88" key="CommitChangelistDialog2" timestamp="1660398266821">
+    <state x="979" y="88" key="CommitChangelistDialog2" timestamp="1660401945158">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="979" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1660398266821" />
+    <state x="979" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1660401945158" />
     <state x="1053" y="100" width="774" height="839" key="DiffContextDialog" timestamp="1657548836545">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -523,22 +531,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1658752108895" />
-    <state width="936" height="172" key="GridCell.Tab.0.bottom" timestamp="1660056242188">
+    <state width="936" height="173" key="GridCell.Tab.0.bottom" timestamp="1660480981689">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1660056242188" />
-    <state width="936" height="172" key="GridCell.Tab.0.center" timestamp="1660056242187">
+    <state width="936" height="173" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1660480981689" />
+    <state width="936" height="173" key="GridCell.Tab.0.center" timestamp="1660480981689">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1660056242187" />
-    <state width="936" height="172" key="GridCell.Tab.0.left" timestamp="1660056242187">
+    <state width="936" height="173" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1660480981689" />
+    <state width="936" height="173" key="GridCell.Tab.0.left" timestamp="1660480981689">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1660056242187" />
-    <state width="936" height="172" key="GridCell.Tab.0.right" timestamp="1660056242188">
+    <state width="936" height="173" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1660480981689" />
+    <state width="936" height="173" key="GridCell.Tab.0.right" timestamp="1660480981689">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1660056242188" />
+    <state width="936" height="173" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1660480981689" />
     <state width="936" height="264" key="GridCell.Tab.1.bottom" timestamp="1659539179924">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -571,10 +579,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="936" height="264" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1659533337812" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1660398270531">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1660401949232">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1660398270531" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1660401949232" />
     <state x="1053" y="100" width="774" height="839" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1657548836546">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -583,10 +591,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="1053" y="100" width="774" height="839" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1657544475871" />
-    <state x="1257" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1659705841437">
+    <state x="1257" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1660480243234">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1257" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1659705841437" />
+    <state x="1257" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1660480243234" />
     <state x="1207" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1657542763467">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
