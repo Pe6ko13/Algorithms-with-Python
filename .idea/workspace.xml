@@ -26,9 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="738bc7a2-c61e-4fe7-8ed6-65526f993755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/02.Word_differences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/03.Connecting_Cables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/01.Binomial_Coefficients.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/01.Binomial_Coefficients.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Python.02.Word_differences">
+  <component name="RunManager" selected="Python.03.Connecting_Cables">
     <configuration name="01.Binomial_Coefficients" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-with-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2.Move_Down_Right" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03.Connecting_Cables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-with-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic_Programming/2.Move_Down_Right.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic_Programming/03.Connecting_Cables.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03.Connecting_Cables" />
         <item itemvalue="Python.02.Word_differences" />
         <item itemvalue="Python.01.Binomial_Coefficients" />
         <item itemvalue="Python.4.Longest_Increasing_Subsequence" />
         <item itemvalue="Python.3.Longest_Common_Subsequence" />
-        <item itemvalue="Python.2.Move_Down_Right" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661175911697</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="solve problem">
+      <created>1661178441682</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1661178441682</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -548,10 +554,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="828" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1657544347482" />
-    <state x="979" y="88" key="CommitChangelistDialog2" timestamp="1661175911016">
+    <state x="979" y="88" key="CommitChangelistDialog2" timestamp="1661178441074">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="979" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1661175911016" />
+    <state x="979" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1661178441074" />
     <state x="1053" y="100" width="774" height="839" key="DiffContextDialog" timestamp="1657548836545">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -560,22 +566,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1658752108895" />
-    <state width="936" height="172" key="GridCell.Tab.0.bottom" timestamp="1661177973240">
+    <state width="936" height="172" key="GridCell.Tab.0.bottom" timestamp="1661181153273">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1661177973240" />
-    <state width="936" height="172" key="GridCell.Tab.0.center" timestamp="1661177973239">
+    <state width="936" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1661181153273" />
+    <state width="936" height="172" key="GridCell.Tab.0.center" timestamp="1661181153272">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1661177973239" />
-    <state width="936" height="172" key="GridCell.Tab.0.left" timestamp="1661177973239">
+    <state width="936" height="172" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1661181153272" />
+    <state width="936" height="172" key="GridCell.Tab.0.left" timestamp="1661181153272">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1661177973239" />
-    <state width="936" height="172" key="GridCell.Tab.0.right" timestamp="1661177973240">
+    <state width="936" height="172" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1661181153272" />
+    <state width="936" height="172" key="GridCell.Tab.0.right" timestamp="1661181153272">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="172" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1661177973240" />
+    <state width="936" height="172" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1661181153272" />
     <state width="936" height="264" key="GridCell.Tab.1.bottom" timestamp="1660570263587">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -608,10 +614,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="936" height="264" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1659533337812" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1661175913088">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1661178442954">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1661175913088" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1661178442954" />
     <state x="1053" y="100" width="774" height="839" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1657548836546">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

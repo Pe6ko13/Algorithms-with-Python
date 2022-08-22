@@ -20,7 +20,7 @@ for row in range(1, rows):
 
 for row in range(1, rows):
     for col in range(1, cols):
-        dp[row][col] = max(dp[row - 1][col], dp[row][col - 1]) + matrix[row][col]
+        dp[row][col] = min(dp[row - 1][col], dp[row][col - 1]) + matrix[row][col]
 
 row = rows - 1
 col = cols - 1
