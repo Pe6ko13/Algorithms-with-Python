@@ -9,6 +9,7 @@ def calc_binom(n, k, memo):
     memo[key] = res
     return res
 
+
 n = int(input())
 k = int(input())
 
