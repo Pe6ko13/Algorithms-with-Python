@@ -27,7 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="738bc7a2-c61e-4fe7-8ed6-65526f993755" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam_prep/01.The_Story_Telling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exam_prep/01.The_Story_Telling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_prep/02.Time.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exam_prep/02.Time.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Python.01.The_Story_Telling">
+  <component name="RunManager" selected="Python.02.Time">
     <configuration name="01.The_Story_Telling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-with-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03.Connecting_Cables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02.Time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-with-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic_Programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exam_prep" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic_Programming/03.Connecting_Cables.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exam_prep/02.Time.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02.Time" />
         <item itemvalue="Python.01.The_Story_Telling" />
         <item itemvalue="Python.06.Longest_Zigzag_Subsequence" />
         <item itemvalue="Python.05.Longest_String_Chain" />
         <item itemvalue="Python.04.Minimum_Edit_Distance" />
-        <item itemvalue="Python.03.Connecting_Cables" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657542620492</updated>
-    </task>
-    <task id="LOCAL-00005" summary="problem solved">
-      <created>1657638315902</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1657638315902</updated>
     </task>
     <task id="LOCAL-00006" summary="problem solved">
       <created>1657639329020</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661247414963</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="problem solved">
+      <created>1661268474764</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1661268474764</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,10 +547,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first problem solved" />
     <MESSAGE value="third problem solved" />
-    <MESSAGE value="problem solved" />
     <MESSAGE value="new" />
     <MESSAGE value="solve problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve problem" />
+    <MESSAGE value="problem solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem solved" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1066" y="194" key="#Inspections" timestamp="1659711156700">
@@ -561,10 +561,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="828" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1657544347482" />
-    <state x="979" y="88" key="CommitChangelistDialog2" timestamp="1661247414385">
+    <state x="979" y="88" key="CommitChangelistDialog2" timestamp="1661268474211">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="979" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1661247414385" />
+    <state x="979" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1661268474211" />
     <state x="1053" y="100" width="774" height="839" key="DiffContextDialog" timestamp="1657548836545">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -573,22 +573,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1658752108895" />
-    <state width="936" height="170" key="GridCell.Tab.0.bottom" timestamp="1661268184710">
+    <state width="936" height="170" key="GridCell.Tab.0.bottom" timestamp="1661277284097">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1661268184710" />
-    <state width="936" height="170" key="GridCell.Tab.0.center" timestamp="1661268184710">
+    <state width="936" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1661277284097" />
+    <state width="936" height="170" key="GridCell.Tab.0.center" timestamp="1661277284097">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1661268184710" />
-    <state width="936" height="170" key="GridCell.Tab.0.left" timestamp="1661268184710">
+    <state width="936" height="170" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1661277284097" />
+    <state width="936" height="170" key="GridCell.Tab.0.left" timestamp="1661277284097">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1661268184710" />
-    <state width="936" height="170" key="GridCell.Tab.0.right" timestamp="1661268184710">
+    <state width="936" height="170" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1661277284097" />
+    <state width="936" height="170" key="GridCell.Tab.0.right" timestamp="1661277284097">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1661268184710" />
+    <state width="936" height="170" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1661277284097" />
     <state width="936" height="264" key="GridCell.Tab.1.bottom" timestamp="1660570263587">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
