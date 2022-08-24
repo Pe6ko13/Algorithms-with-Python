@@ -19,15 +19,15 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="738bc7a2-c61e-4fe7-8ed6-65526f993755" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam_prep/02.Time.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exam_prep/02.Time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_prep/03.Chain_Lightning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exam_prep/03.Chain_Lightning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Python.02.Time">
+  <component name="RunManager" selected="Python.03.Chain_Lightning">
     <configuration name="01.The_Story_Telling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-with-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04.Minimum_Edit_Distance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03.Chain_Lightning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-with-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,11 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic_Programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exam_prep" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic_Programming/04.Minimum_Edit_Distance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exam_prep/03.Chain_Lightning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03.Chain_Lightning" />
         <item itemvalue="Python.02.Time" />
         <item itemvalue="Python.01.The_Story_Telling" />
         <item itemvalue="Python.06.Longest_Zigzag_Subsequence" />
         <item itemvalue="Python.05.Longest_String_Chain" />
-        <item itemvalue="Python.04.Minimum_Edit_Distance" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657542620492</updated>
-    </task>
-    <task id="LOCAL-00006" summary="problem solved">
-      <created>1657639329020</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1657639329020</updated>
     </task>
     <task id="LOCAL-00007" summary="problem solved">
       <created>1657648001792</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661268474764</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="problem solved">
+      <created>1661277381028</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1661277381028</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,6 +535,17 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -561,10 +572,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="828" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1657544347482" />
-    <state x="979" y="88" key="CommitChangelistDialog2" timestamp="1661268474211">
+    <state x="979" y="88" key="CommitChangelistDialog2" timestamp="1661277380428">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="979" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1661268474211" />
+    <state x="979" y="88" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1661277380428" />
     <state x="1053" y="100" width="774" height="839" key="DiffContextDialog" timestamp="1657548836545">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -573,22 +584,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1658752108895" />
-    <state width="936" height="170" key="GridCell.Tab.0.bottom" timestamp="1661277284097">
+    <state width="936" height="170" key="GridCell.Tab.0.bottom" timestamp="1661335038059">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1661277284097" />
-    <state width="936" height="170" key="GridCell.Tab.0.center" timestamp="1661277284097">
+    <state width="936" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1661335038059" />
+    <state width="936" height="170" key="GridCell.Tab.0.center" timestamp="1661335038058">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1661277284097" />
-    <state width="936" height="170" key="GridCell.Tab.0.left" timestamp="1661277284097">
+    <state width="936" height="170" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1661335038058" />
+    <state width="936" height="170" key="GridCell.Tab.0.left" timestamp="1661335038057">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1661277284097" />
-    <state width="936" height="170" key="GridCell.Tab.0.right" timestamp="1661277284097">
+    <state width="936" height="170" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1661335038057" />
+    <state width="936" height="170" key="GridCell.Tab.0.right" timestamp="1661335038059">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1661277284097" />
+    <state width="936" height="170" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1661335038058" />
     <state width="936" height="264" key="GridCell.Tab.1.bottom" timestamp="1660570263587">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -621,10 +632,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="936" height="264" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1659533337812" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1661247416993">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1661277705783">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1661247416993" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1661277705783" />
     <state x="1053" y="100" width="774" height="839" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1657548836546">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
